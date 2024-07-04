@@ -1,0 +1,34 @@
+{
+    "currentSignal": "jcppkpcolorlight",
+    "nextSignal": "jcppkpcolorlight",
+    "savedPredicates": {
+        "stop": "config(pkpsemiautonear.S1) || config(pkpsemiautonear.SZ_RED) || config(pkpsemiautonear.SZ) || config(pkpsemiautonear.MS2) || config(pkpsemiautoneardist.S1) || config(pkpsemiautoneardist.SZ_RED) || config(pkpsemiautoneardist.SZ) || config(pkpsemiautoneardist.MS2) || config(pkpautotwo.S1) || config(pkpautothree.S1) || config(pkpautofour.S1)",
+        "expectstop": "config(pkpautofour.S5) || config(pkpautothree.S5) || config(pkpautotwo.S2) || config(pkpsemiautoneardist.S9S13) || config(pkpsemiautoneardist.S5)",
+        "drive": "config(pkpsemiautonear.S2) || config(pkpsemiautoneardist.S2) || config(pkpsemiautoneardist.S3) || config(pkpsemiautoneardist.S4) || config(pkpsemiautoneardist.S5) || config(pkpautotwo.S2) || config(pkpautothree.S2) || config(pkpautothree.S5) || config(pkpautofour.S2) || config(pkpautofour.S3)",
+        "slow": "config(pkpsemiautonear.S6S10) || config(pkpsemiautoneardist.S6S10) || config(pkpsemiautoneardist.S7S11) || config(pkpsemiautoneardist.S8S12) || config(pkpsemiautoneardist.S9S13)",
+        "40_60": "config(pkplightbar.OFF) || config(pkplightbar.YELLOW) || !(config(pkplightbar.OFF) || config(pkplightbar.YELLOW) || config(pkplightbar.GREEN))",
+        "100": "config(pkplightbar.GREEN)"
+    },
+    "values": {
+        "map(stop) && (speed(<.1) || speed(>=.11))": ["pkplightbar.OFF", "pkpsemiautonear.S2", "pkpsemiautoneardist.S5", "pkpautotwo.S2", "pkpautothree.S5", "pkpautofour.S5", "pkpdistant.OS1", "pkpdistantrepeat.SP1"],
+        "map(stop) && speed(>=.1) && speed(<=.5)": ["pkplightbar.OFF", "pkpsemiautonear.S6S10", "pkpsemiautoneardist.S9S13", "pkpautotwo.S2", "pkpautothree.S5", "pkpautofour.S5", "pkpdistant.OS1", "pkpdistantrepeat.SP1"],
+        "map(stop) && speed(>=.6) && speed(<=.9)": ["pkplightbar.YELLOW", "pkpsemiautonear.S6S10", "pkpsemiautoneardist.S9S13", "pkpautotwo.S2", "pkpautothree.S5", "pkpautofour.S5", "pkpdistant.OS1", "pkpdistantrepeat.SP1"],
+        "map(stop) && speed(==.10)": ["pkplightbar.GREEN", "pkpsemiautonear.S6S10", "pkpsemiautoneardist.S9S13", "pkpautotwo.S2", "pkpautothree.S5", "pkpautofour.S5", "pkpdistant.OS1", "pkpdistantrepeat.SP1"],
+
+        "map(drive) && (speed(<.1) || speed(>=.11))": ["pkplightbar.OFF", "pkpsemiautonear.S2", "pkpsemiautoneardist.S2", "pkpautotwo.S2", "pkpautothree.S2", "pkpautofour.S2", "pkpdistant.OS2", "pkpdistantrepeat.SP2"],
+        "map(drive) && speed(>=.1) && speed(<=.5)": ["pkplightbar.OFF", "pkpsemiautonear.S6S10", "pkpsemiautoneardist.S6S10", "pkpautotwo.S2", "pkpautothree.S2", "pkpautofour.S2", "pkpdistant.OS2", "pkpdistantrepeat.SP2"],
+        "map(drive) && speed(>=.6) && speed(<=.9)": ["pkplightbar.YELLOW", "pkpsemiautonear.S6S10", "pkpsemiautoneardist.S6S10", "pkpautotwo.S2", "pkpautothree.S2", "pkpautofour.S2", "pkpdistant.OS2", "pkpdistantrepeat.SP2"],
+        "map(drive) && speed(==.10)": ["pkplightbar.GREEN", "pkpsemiautonear.S6S10", "pkpsemiautoneardist.S6S10", "pkpautotwo.S2", "pkpautothree.S2", "pkpautofour.S2", "pkpdistant.OS2", "pkpdistantrepeat.SP2"],
+        "map(expectstop)": ["pkpautofour.S3"],
+
+        "map(slow) && map(40_60) && (speed(<.1) || speed(>=.11))": ["pkplightbar.OFF", "pkpsemiautonear.S2", "pkpsemiautoneardist.S4", "pkpautotwo.S2", "pkpautothree.S2", "pkpautofour.S2", "pkpdistant.OS4", "pkpdistantrepeat.SP4"],
+        "map(slow) && map(40_60) && speed(>=.1) && speed(<=.5)": ["pkplightbar.OFF", "pkpsemiautonear.S6S10", "pkpsemiautoneardist.S8S12", "pkpautotwo.S2", "pkpautothree.S2", "pkpautofour.S2", "pkpdistant.OS4", "pkpdistantrepeat.SP4"],
+        "map(slow) && map(40_60) && speed(>=.6) && speed(<=.9)": ["pkplightbar.YELLOW", "pkpsemiautonear.S6S10", "pkpsemiautoneardist.S8S12", "pkpautotwo.S2", "pkpautothree.S2", "pkpautofour.S2", "pkpdistant.OS4", "pkpdistantrepeat.SP4"],
+        "map(slow) && map(40_60) && speed(==.10)": ["pkplightbar.GREEN", "pkpsemiautonear.S6S10", "pkpsemiautoneardist.S8S12", "pkpautotwo.S2", "pkpautothree.S2", "pkpautofour.S2", "pkpdistant.OS4", "pkpdistantrepeat.SP4"],
+
+        "map(slow) && map(100) && (speed(<.1) || speed(>=.11))": ["pkplightbar.OFF", "pkpsemiautonear.S2", "pkpsemiautoneardist.S3", "pkpautotwo.S2", "pkpautothree.S2", "pkpautofour.S2", "pkpdistant.OS3", "pkpdistantrepeat.SP3"],
+        "map(slow) && map(100) && speed(>=.1) && speed(<=.5)": ["pkplightbar.OFF", "pkpsemiautonear.S6S10", "pkpsemiautoneardist.S7S11", "pkpautotwo.S2", "pkpautothree.S2", "pkpautofour.S2", "pkpdistant.OS3", "pkpdistantrepeat.SP3"],
+        "map(slow) && map(100) && speed(>=.6) && speed(<=.9)": ["pkplightbar.YELLOW", "pkpsemiautonear.S6S10", "pkpsemiautoneardist.S7S11", "pkpautotwo.S2", "pkpautothree.S2", "pkpautofour.S2", "pkpdistant.OS3", "pkpdistantrepeat.SP3"],
+        "map(slow) && map(100) && speed(==.10)": ["pkplightbar.GREEN", "pkpsemiautonear.S6S10", "pkpsemiautoneardist.S7S11", "pkpautotwo.S2", "pkpautothree.S2", "pkpautofour.S2", "pkpdistant.OS3", "pkpdistantrepeat.SP3"]
+    }
+}

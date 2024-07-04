@@ -1,0 +1,14 @@
+{
+    "subsidiaryStates": [
+        {
+            "name": "SZ",
+            "showSubsidiaryAtSignal": "SIGNAL_RED",
+            "isCountable": true
+        },
+        {
+            "name": "MS2",
+            "showSubsidiaryAtSignal": "SIGNAL_RED",
+            "isCountable": false
+        }
+    ]
+}

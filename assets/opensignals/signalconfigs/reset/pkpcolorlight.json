@@ -1,0 +1,18 @@
+{
+    "currentSignal": "jcppkpcolorlight",
+    "values": {
+        "true": [
+            "pkplightbar.OFF",
+            "pkpspeed.OFF",
+            "pkpsemiautonear.S1",
+            "pkpsemiautoneardist.S1",
+            "pkpautotwo.S1",
+            "pkpautothree.S1",
+            "pkpautofour.S1",
+            "pkpdistant.OS1",
+            "pkpdistantrepeat.SP1",
+            "pkpshunting.MS1",
+            "pkpshuntingdwarf.MS1"
+        ]
+    }
+}

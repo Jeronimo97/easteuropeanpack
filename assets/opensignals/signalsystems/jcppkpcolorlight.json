@@ -1,0 +1,135 @@
+{
+    "systemProperties": {
+        "placementToolName": "jcpeasteuropetool",
+        "canLink": true,
+        "defaultHeight": 6,
+        "customNameRenderHeight": 5.1,
+        "offsetY": -12,
+        "renderHeights": {
+            "config(PKPCOLORTYPE.SHUNTING_DWARF)": 1.25
+        },
+        "signScale": 0.6,
+        "signWidth": 22,
+        "signalHeights": {
+            "config(PKPCOLORTYPE.SHUNTING_DWARF)": 0
+        }
+    },
+    "seProperties": [
+        {
+            "name": "pkpcolortype",
+            "enumClass": "PKPCOLORTYPE",
+            "defaultState": "OFF",
+            "changeableStage": "GUISTAGE"
+        },
+        {
+            "name": "pkpsemiautonear",
+            "enumClass": "PKPSEMIAUTONEAR",
+            "defaultState": "OFF",
+            "changeableStage": "APISTAGE_NONE_CONFIG",
+            "autoname": true,
+            "dependencies": "config(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR)"
+        },
+        {
+            "name": "pkpsemiautoneardist",
+            "enumClass": "PKPSEMIAUTONEARDIST",
+            "defaultState": "OFF",
+            "changeableStage": "APISTAGE_NONE_CONFIG",
+            "autoname": true,
+            "dependencies": "config(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR_DISTANT)"
+        },
+        {
+            "name": "pkpautotwo",
+            "enumClass": "PKPAUTOTWO",
+            "defaultState": "OFF",
+            "changeableStage": "APISTAGE_NONE_CONFIG",
+            "autoname": true,
+            "dependencies": "config(PKPCOLORTYPE.AUTOMATIC_TWO_STATES)"
+        },
+        {
+            "name": "pkpautothree",
+            "enumClass": "PKPAUTOTHREE",
+            "defaultState": "OFF",
+            "changeableStage": "APISTAGE_NONE_CONFIG",
+            "autoname": true,
+            "dependencies": "config(PKPCOLORTYPE.AUTOMATIC_THREE_STATES)"
+        },
+        {
+            "name": "pkpautofour",
+            "enumClass": "PKPAUTOFOUR",
+            "defaultState": "OFF",
+            "changeableStage": "APISTAGE_NONE_CONFIG",
+            "autoname": true,
+            "dependencies": "config(PKPCOLORTYPE.AUTOMATIC_FOUR_STATES)"
+        },
+        {
+            "name": "pkpdistant",
+            "enumClass": "PKPDIST",
+            "defaultState": "OFF",
+            "changeableStage": "APISTAGE_NONE_CONFIG",
+            "autoname": true,
+            "dependencies": "config(PKPCOLORTYPE.DISTANT)"
+        },
+        {
+            "name": "pkpdistantrepeat",
+            "enumClass": "PKPDISTREPEAT",
+            "defaultState": "OFF",
+            "changeableStage": "APISTAGE_NONE_CONFIG",
+            "autoname": true,
+            "dependencies": "config(PKPCOLORTYPE.DISTANT_REPEAT)"
+        },
+        {
+            "name": "pkpshunting",
+            "enumClass": "PKPSHUNTING",
+            "defaultState": "OFF",
+            "changeableStage": "APISTAGE_NONE_CONFIG",
+            "autoname": true,
+            "dependencies": "config(PKPCOLORTYPE.SHUNTING)"
+        },
+        {
+            "name": "pkpshuntingdwarf",
+            "enumClass": "PKPSHUNTING",
+            "defaultState": "OFF",
+            "changeableStage": "APISTAGE_NONE_CONFIG",
+            "autoname": true,
+            "dependencies": "config(PKPCOLORTYPE.SHUNTING_DWARF)"
+        },
+        {
+            "name": "pkplightbar",
+            "enumClass": "PKPLIGHTBAR",
+            "defaultState": "OFF",
+            "changeableStage": "APISTAGE",
+            "autoname": true,
+            "dependencies": "config(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR) || config(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR_DISTANT)"
+        },
+        {
+            "name": "pkpspeed",
+            "enumClass": "ZS32",
+            "defaultState": "OFF",
+            "changeableStage": "APISTAGE",
+            "autoname": true,
+            "dependencies": "config(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR) || config(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR_DISTANT) || config(PKPCOLORTYPE.AUTOMATIC_TWO_STATES) || config(PKPCOLORTYPE.AUTOMATIC_THREE_STATES) || config(PKPCOLORTYPE.AUTOMATIC_FOUR_STATES)"
+        },
+        {
+            "name": "pkpdistantsign",
+            "defaultState": false,
+            "changeableStage": "GUISTAGE",
+            "autoname": true,
+            "dependencies": "config(PKPCOLORTYPE.DISTANT)"
+        },
+        {
+            "name": "pkpw18",
+            "defaultState": false,
+            "changeableStage": "GUISTAGE",
+            "autoname": true,
+            "dependencies": "config(PKPCOLORTYPE.AUTOMATIC_THREE_STATES) || config(PKPCOLORTYPE.AUTOMATIC_FOUR_STATES)"
+        },
+        {
+            "name": "pkplevelcrossing",
+            "enumClass": "PKPLEVELCROSSING",
+            "defaultState": "OFF",
+            "changeableStage": "APISTAGE_NONE_CONFIG",
+            "autoname": true,
+            "dependencies": "config(PKPCOLORTYPE.LEVEL_CROSSING)"
+        }
+    ]
+}

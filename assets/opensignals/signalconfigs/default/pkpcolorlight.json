@@ -1,0 +1,45 @@
+{
+    "currentSignal": "jcppkpcolorlight",
+    "values": {
+        "speed(<.1) || speed(>=.11)": [
+            "pkplightbar.OFF",
+            "pkpsemiautonear.S2",
+            "pkpsemiautoneardist.S2",
+            "pkpautotwo.S2",
+            "pkpautothree.S2",
+            "pkpautofour.S2",
+            "pkpdistant.OS1",
+            "pkpdistantrepeat.SP1"
+        ],
+        "speed(>=.1) && speed(<=.5)": [
+            "pkplightbar.OFF",
+            "pkpsemiautonear.S6S10",
+            "pkpsemiautoneardist.S6S10",
+            "pkpautotwo.S2",
+            "pkpautothree.S2",
+            "pkpautofour.S2",
+            "pkpdistant.OS1",
+            "pkpdistantrepeat.SP1"
+        ],
+        "speed(>=.6) && speed(<=.9)": [
+            "pkplightbar.YELLOW",
+            "pkpsemiautonear.S6S10",
+            "pkpsemiautoneardist.S6S10",
+            "pkpautotwo.S2",
+            "pkpautothree.S2",
+            "pkpautofour.S2",
+            "pkpdistant.OS1",
+            "pkpdistantrepeat.SP1"
+        ],
+        "speed(==.10)": [
+            "pkplightbar.GREEN",
+            "pkpsemiautonear.S6S10",
+            "pkpsemiautoneardist.S6S10",
+            "pkpautotwo.S2",
+            "pkpautothree.S2",
+            "pkpautofour.S2",
+            "pkpdistant.OS1",
+            "pkpdistantrepeat.SP1"
+        ]
+    }
+}

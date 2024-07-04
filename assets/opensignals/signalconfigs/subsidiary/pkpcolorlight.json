@@ -1,0 +1,19 @@
+{
+    "currentSignal": "jcppkpcolorlight",
+    "allStates": {
+        "SZ": [
+            "pkpsemiautonear.SZ_RED",
+            "pkpsemiautonear.SZ_RED"
+        ],
+        "MS2": [
+            "pkpsemiautonear.MS2",
+            "pkpsemiautonear.MS2",
+            "pkpshunting.MS2",
+            "pkpshuntingdwarf.MS2"
+        ],
+        "STATUSLIGHT": [
+            "pkpsemiautonear.SZ",
+            "pkpsemiautonear.SZ"
+        ]
+    }
+}

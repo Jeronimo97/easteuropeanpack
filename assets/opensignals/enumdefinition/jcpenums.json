@@ -1,0 +1,86 @@
+{
+    "PKPCOLORTYPE": [
+        "OFF",
+        "SEMI_AUTOMATIC_NEAR",
+        "SEMI_AUTOMATIC_NEAR_DISTANT",
+        "AUTOMATIC_TWO_STATES",
+        "AUTOMATIC_THREE_STATES",
+        "AUTOMATIC_FOUR_STATES",
+        "DISTANT",
+        "DISTANT_REPEAT",
+        "SHUNTING",
+        "SHUNTING_DWARF",
+        "LEVEL_CROSSING"
+    ],
+    "PKPSEMIAUTONEAR": [
+        "OFF",
+        "S1",
+        "S2",
+        "S6S10",
+        "SZ_RED",
+        "SZ",
+        "MS2"
+    ],
+    "PKPSEMIAUTONEARDIST": [
+        "OFF",
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6S10",
+        "S7S11",
+        "S8S12",
+        "S9S13",
+        "SZ_RED",
+        "SZ",
+        "MS2"
+    ],
+    "PKPAUTOTWO": [
+        "OFF",
+        "S1",
+        "S2"
+    ],
+    "PKPAUTOTHREE": [
+        "OFF",
+        "S1",
+        "S2",
+        "S5"
+    ],
+    "PKPAUTOFOUR": [
+        "OFF",
+        "S1",
+        "S2",
+        "S3",
+        "S5"
+    ],
+    "PKPDIST": [
+        "OFF",
+        "OS1",
+        "OS2",
+        "OS3",
+        "OS4"
+    ],
+    "PKPDISTREPEAT": [
+        "OFF",
+        "SP1",
+        "SP2",
+        "SP3",
+        "SP4"
+    ],
+    "PKPSHUNTING": [
+        "OFF",
+        "MS1",
+        "MS2"
+    ],
+    "PKPLIGHTBAR": [
+        "OFF",
+        "GREEN",
+        "YELLOW"
+    ],
+    "PKPLEVELCROSSING": [
+        "OFF",
+        "OSP1",
+        "OSP2"
+    ]
+}

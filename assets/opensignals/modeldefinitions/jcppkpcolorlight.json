@@ -1,0 +1,518 @@
+{
+    "textures": {
+        "mast_white": "opensignals:blocks/jcppkp/white",
+        "mast_gray": "opensignals:blocks/jcppkp/gray",
+        "mast_black_white": "opensignals:blocks/jcppkp/mast_black_white",
+		"lamp_green": "opensignals:blocks/jcppkp/lamp_green",
+        "lamp_green_blink": "opensignals:blocks/jcppkp/lamp_green_blink",
+        "lamp_red": "opensignals:blocks/jcppkp/lamp_red",
+		"lamp_white": "opensignals:blocks/jcppkp/lamp_white",
+		"lamp_white_blink": "opensignals:blocks/jcppkp/lamp_white_blink",
+		"lamp_yellow": "opensignals:blocks/jcppkp/lamp_yellow",
+        "lamp_yellow_blink": "opensignals:blocks/jcppkp/lamp_yellow_blink",
+        "lamp_blue": "opensignals:blocks/jcppkp/lamp_blue",
+        "lightbar_green": "opensignals:blocks/jcppkp/lamp_green_bar",
+        "lightbar_yellow": "opensignals:blocks/jcppkp/lamp_yellow_bar"
+	},
+    "models": {
+        "jcppkp/mast_base": {
+			"textures": [
+				{
+                    "blockstate": "with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR) || with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR_DISTANT)"
+                },
+                {
+                    "blockstate": "with(PKPCOLORTYPE.AUTOMATIC_TWO_STATES) || with(PKPCOLORTYPE.AUTOMATIC_THREE_STATES) || with(PKPCOLORTYPE.AUTOMATIC_FOUR_STATES)",
+                    "retexture": {
+                        "1": "mast_white"
+                    }
+                },
+                {
+                    "blockstate": "with(PKPCOLORTYPE.DISTANT) || with(PKPCOLORTYPE.DISTANT_REPEAT) || with(PKPCOLORTYPE.SHUNTING)",
+                    "retexture": {
+                        "1": "mast_gray"
+                    }
+                },
+                {
+                    "blockstate": "with(PKPCOLORTYPE.LEVEL_CROSSING)",
+                    "retexture": {
+                        "1": "mast_black_white"
+                    }
+                }
+			],
+			"y": 0
+		},
+        "jcppkp/mast": {
+			"textures": [
+				{
+                    "blockstate": "with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR) || with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR_DISTANT)",
+                    "y": 0
+                },
+                {
+                    "blockstate": "with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR) || with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR_DISTANT)",
+                    "y": 1
+                },
+                {
+                    "blockstate": "with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR) || with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR_DISTANT)",
+                    "y": 2
+                },
+                {
+                    "blockstate": "with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR) || with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR_DISTANT)",
+                    "y": 3
+                },
+                {
+                    "blockstate": "with(PKPCOLORTYPE.AUTOMATIC_TWO_STATES) || with(PKPCOLORTYPE.AUTOMATIC_THREE_STATES) || with(PKPCOLORTYPE.AUTOMATIC_FOUR_STATES)",
+                    "retexture": {
+                        "1": "mast_white"
+                    },
+                    "y": 0
+                },
+                {
+                    "blockstate": "with(PKPCOLORTYPE.AUTOMATIC_TWO_STATES) || with(PKPCOLORTYPE.AUTOMATIC_THREE_STATES) || with(PKPCOLORTYPE.AUTOMATIC_FOUR_STATES)",
+                    "retexture": {
+                        "1": "mast_white"
+                    },
+                    "y": 1
+                },
+                {
+                    "blockstate": "with(PKPCOLORTYPE.AUTOMATIC_TWO_STATES) || with(PKPCOLORTYPE.AUTOMATIC_THREE_STATES) || with(PKPCOLORTYPE.AUTOMATIC_FOUR_STATES)",
+                    "retexture": {
+                        "1": "mast_white"
+                    },
+                    "y": 2
+                },
+                {
+                    "blockstate": "with(PKPCOLORTYPE.AUTOMATIC_TWO_STATES) || with(PKPCOLORTYPE.AUTOMATIC_THREE_STATES) || with(PKPCOLORTYPE.AUTOMATIC_FOUR_STATES)",
+                    "retexture": {
+                        "1": "mast_white"
+                    },
+                    "y": 3
+                },
+                {
+                    "blockstate": "with(PKPCOLORTYPE.OFF) || with(PKPCOLORTYPE.DISTANT) || with(PKPCOLORTYPE.DISTANT_REPEAT) || with(PKPCOLORTYPE.SHUNTING)",
+                    "retexture": {
+                        "1": "mast_gray"
+                    },
+                    "y": 0
+                },
+                {
+                    "blockstate": "with(PKPCOLORTYPE.OFF) || with(PKPCOLORTYPE.DISTANT) || with(PKPCOLORTYPE.DISTANT_REPEAT) || with(PKPCOLORTYPE.SHUNTING)",
+                    "retexture": {
+                        "1": "mast_gray"
+                    },
+                    "y": 1
+                },
+                {
+                    "blockstate": "with(PKPCOLORTYPE.OFF) || with(PKPCOLORTYPE.DISTANT) || with(PKPCOLORTYPE.DISTANT_REPEAT) || with(PKPCOLORTYPE.SHUNTING)",
+                    "retexture": {
+                        "1": "mast_gray"
+                    },
+                    "y": 2
+                },
+                {
+                    "blockstate": "with(PKPCOLORTYPE.OFF) || with(PKPCOLORTYPE.DISTANT) || with(PKPCOLORTYPE.DISTANT_REPEAT) || with(PKPCOLORTYPE.SHUNTING)",
+                    "retexture": {
+                        "1": "mast_gray"
+                    },
+                    "y": 3
+                },
+                {
+                    "blockstate": "with(PKPCOLORTYPE.LEVEL_CROSSING)",
+                    "retexture": {
+                        "1": "mast_black_white"
+                    },
+                    "y": 0
+                },
+                {
+                    "blockstate": "with(PKPCOLORTYPE.LEVEL_CROSSING)",
+                    "retexture": {
+                        "1": "mast_black_white"
+                    },
+                    "y": 1
+                },
+                {
+                    "blockstate": "with(PKPCOLORTYPE.LEVEL_CROSSING)",
+                    "retexture": {
+                        "1": "mast_black_white"
+                    },
+                    "y": 2
+                },
+                {
+                    "blockstate": "with(PKPCOLORTYPE.LEVEL_CROSSING)",
+                    "retexture": {
+                        "1": "mast_black_white"
+                    },
+                    "y": 3
+                }
+			],
+			"y": 1
+		},
+        "jcppkp/signal_head_semiauto_4": {
+            "textures": [
+				{
+                    "blockstate": "with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR) && with(PKPSEMIAUTONEAR.OFF)"
+                },
+                {
+                    "blockstate": "with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR) && with(PKPSEMIAUTONEAR.S1)",
+                    "retexture": {
+                        "lamp_red": "lamp_red"
+                    }
+                },
+                {
+                    "blockstate": "with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR) && with(PKPSEMIAUTONEAR.S2)",
+                    "retexture": {
+                        "lamp_green": "lamp_green"
+                    }
+                },
+                {
+                    "blockstate": "with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR) && with(PKPSEMIAUTONEAR.S6S10)",
+                    "retexture": {
+                        "lamp_green": "lamp_green",
+                        "lamp_yellow_2": "lamp_yellow"
+                    }
+                },
+                {
+                    "blockstate": "with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR) && with(PKPSEMIAUTONEAR.SZ_RED)",
+                    "retexture": {
+                        "lamp_red": "lamp_red",
+                        "lamp_white": "lamp_white_blink"
+                    }
+                },
+                {
+                    "blockstate": "with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR) && with(PKPSEMIAUTONEAR.SZ)",
+                    "retexture": {
+                        "lamp_white": "lamp_white_blink"
+                    }
+                },
+                {
+                    "blockstate": "with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR) && with(PKPSEMIAUTONEAR.MS2)",
+                    "retexture": {
+                        "lamp_white": "lamp_white"
+                    }
+                }
+            ],
+            "y": 5
+        },
+        "jcppkp/signal_head_semiauto_5": {
+            "textures": [
+				{
+                    "blockstate": "with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR_DISTANT) && with(PKPSEMIAUTONEARDIST.OFF)"
+                },
+                {
+                    "blockstate": "with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR_DISTANT) && with(PKPSEMIAUTONEARDIST.S1)",
+                    "retexture": {
+                        "lamp_red": "lamp_red"
+                    }
+                },
+                {
+                    "blockstate": "with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR_DISTANT) && with(PKPSEMIAUTONEARDIST.S2)",
+                    "retexture": {
+                        "lamp_green": "lamp_green"
+                    }
+                },
+                {
+                    "blockstate": "with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR_DISTANT) && with(PKPSEMIAUTONEARDIST.S3)",
+                    "retexture": {
+                        "lamp_green": "lamp_green_blink"
+                    }
+                },
+                {
+                    "blockstate": "with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR_DISTANT) && with(PKPSEMIAUTONEARDIST.S4)",
+                    "retexture": {
+                        "lamp_yellow_1": "lamp_yellow_blink"
+                    }
+                },
+                {
+                    "blockstate": "with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR_DISTANT) && with(PKPSEMIAUTONEARDIST.S5)",
+                    "retexture": {
+                        "lamp_yellow_1": "lamp_yellow"
+                    }
+                },
+                {
+                    "blockstate": "with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR_DISTANT) && with(PKPSEMIAUTONEARDIST.S6S10)",
+                    "retexture": {
+                        "lamp_green": "lamp_green",
+                        "lamp_yellow_2": "lamp_yellow"
+                    }
+                },
+                {
+                    "blockstate": "with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR_DISTANT) && with(PKPSEMIAUTONEARDIST.S7S11)",
+                    "retexture": {
+                        "lamp_green": "lamp_green_blink",
+                        "lamp_yellow_2": "lamp_yellow"
+                    }
+                },
+                {
+                    "blockstate": "with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR_DISTANT) && with(PKPSEMIAUTONEARDIST.S8S12)",
+                    "retexture": {
+                        "lamp_yellow_1": "lamp_yellow_blink",
+                        "lamp_yellow_2": "lamp_yellow"
+                    }
+                },
+                {
+                    "blockstate": "with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR_DISTANT) && with(PKPSEMIAUTONEARDIST.S9S13)",
+                    "retexture": {
+                        "lamp_yellow_1": "lamp_yellow",
+                        "lamp_yellow_2": "lamp_yellow"
+                    }
+                },
+                {
+                    "blockstate": "with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR_DISTANT) && with(PKPSEMIAUTONEARDIST.SZ_RED)",
+                    "retexture": {
+                        "lamp_red": "lamp_red",
+                        "lamp_white": "lamp_white_blink"
+                    }
+                },
+                {
+                    "blockstate": "with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR_DISTANT) && with(PKPSEMIAUTONEARDIST.SZ)",
+                    "retexture": {
+                        "lamp_white": "lamp_white_blink"
+                    }
+                },
+                {
+                    "blockstate": "with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR_DISTANT) && with(PKPSEMIAUTONEARDIST.MS2)",
+                    "retexture": {
+                        "lamp_white": "lamp_white"
+                    }
+                }
+            ],
+            "y": 5
+        },
+        "jcppkp/signal_head_2": {
+            "textures": [
+				{
+                    "blockstate": "with(PKPCOLORTYPE.AUTOMATIC_TWO_STATES) && with(PKPAUTOTWO.OFF)"
+                },
+                {
+                    "blockstate": "with(PKPCOLORTYPE.AUTOMATIC_TWO_STATES) && with(PKPAUTOTWO.S1)",
+                    "retexture": {
+                        "lamp_2": "lamp_red"
+                    }
+                },
+                {
+                    "blockstate": "with(PKPCOLORTYPE.AUTOMATIC_TWO_STATES) && with(PKPAUTOTWO.S2)",
+                    "retexture": {
+                        "lamp_1": "lamp_green"
+                    }
+                },
+                {
+                    "blockstate": "with(PKPCOLORTYPE.DISTANT) && with(PKPDISTANT.OFF)"
+                },
+                {
+                    "blockstate": "with(PKPCOLORTYPE.DISTANT) && with(PKPDISTANT.OS1)",
+                    "retexture": {
+                        "lamp_1": "lamp_yellow"
+                    }
+                },
+                {
+                    "blockstate": "with(PKPCOLORTYPE.DISTANT) && with(PKPDISTANT.OS2)",
+                    "retexture": {
+                        "lamp_2": "lamp_green"
+                    }
+                },
+                {
+                    "blockstate": "with(PKPCOLORTYPE.DISTANT) && with(PKPDISTANT.OS3)",
+                    "retexture": {
+                        "lamp_2": "lamp_green_blink"
+                    }
+                },
+                {
+                    "blockstate": "with(PKPCOLORTYPE.DISTANT) && with(PKPDISTANT.OS4)",
+                    "retexture": {
+                        "lamp_1": "lamp_yellow_blink"
+                    }
+                },
+                {
+                    "blockstate": "with(PKPCOLORTYPE.SHUNTING) && with(PKPSHUNTING.OFF)"
+                },
+                {
+                    "blockstate": "with(PKPCOLORTYPE.SHUNTING) && with(PKPSHUNTING.MS1)",
+                    "retexture": {
+                        "lamp_2": "lamp_blue"
+                    }
+                },
+                {
+                    "blockstate": "with(PKPCOLORTYPE.SHUNTING) && with(PKPSHUNTING.MS2)",
+                    "retexture": {
+                        "lamp_1": "lamp_white"
+                    }
+                }
+            ],
+            "y": 5
+        },
+        "jcppkp/signal_head_3": {
+            "textures": [
+				{
+                    "blockstate": "with(PKPCOLORTYPE.AUTOMATIC_THREE_STATES) && with(PKPAUTOTHREE.OFF)"
+                },
+                {
+                    "blockstate": "with(PKPCOLORTYPE.AUTOMATIC_THREE_STATES) && with(PKPAUTOTHREE.S1)",
+                    "retexture": {
+                        "lamp_2": "lamp_red"
+                    }
+                },
+                {
+                    "blockstate": "with(PKPCOLORTYPE.AUTOMATIC_THREE_STATES) && with(PKPAUTOTHREE.S2)",
+                    "retexture": {
+                        "lamp_3": "lamp_green"
+                    }
+                },
+                {
+                    "blockstate": "with(PKPCOLORTYPE.AUTOMATIC_THREE_STATES) && with(PKPAUTOTHREE.S5)",
+                    "retexture": {
+                        "lamp_1": "lamp_yellow"
+                    }
+                },
+                {
+                    "blockstate": "with(PKPCOLORTYPE.AUTOMATIC_FOUR_STATES) && with(PKPAUTOFOUR.OFF)"
+                },
+                {
+                    "blockstate": "with(PKPCOLORTYPE.AUTOMATIC_FOUR_STATES) && with(PKPAUTOFOUR.S1)",
+                    "retexture": {
+                        "lamp_2": "lamp_red"
+                    }
+                },
+                {
+                    "blockstate": "with(PKPCOLORTYPE.AUTOMATIC_FOUR_STATES) && with(PKPAUTOFOUR.S2)",
+                    "retexture": {
+                        "lamp_3": "lamp_green"
+                    }
+                },
+                {
+                    "blockstate": "with(PKPCOLORTYPE.AUTOMATIC_FOUR_STATES) && with(PKPAUTOFOUR.S3)",
+                    "retexture": {
+                        "lamp_3": "lamp_green_blink"
+                    }
+                },
+                {
+                    "blockstate": "with(PKPCOLORTYPE.AUTOMATIC_FOUR_STATES) && with(PKPAUTOFOUR.S5)",
+                    "retexture": {
+                        "lamp_1": "lamp_yellow"
+                    }
+                },
+                {
+                    "blockstate": "with(PKPCOLORTYPE.DISTANT_REPEAT) && with(PKPDISTANTREPEAT.OFF)"
+                },
+                {
+                    "blockstate": "with(PKPCOLORTYPE.DISTANT_REPEAT) && with(PKPDISTANTREPEAT.SP1)",
+                    "retexture": {
+                        "lamp_2": "lamp_yellow",
+                        "lamp_1": "lamp_white"
+                    }
+                },
+                {
+                    "blockstate": "with(PKPCOLORTYPE.DISTANT_REPEAT) && with(PKPDISTANTREPEAT.SP2)",
+                    "retexture": {
+                        "lamp_3": "lamp_green",
+                        "lamp_1": "lamp_white"
+                    }
+                },
+                {
+                    "blockstate": "with(PKPCOLORTYPE.DISTANT_REPEAT) && with(PKPDISTANTREPEAT.SP3)",
+                    "retexture": {
+                        "lamp_3": "lamp_green_blink",
+                        "lamp_1": "lamp_white"
+                    }
+                },
+                {
+                    "blockstate": "with(PKPCOLORTYPE.DISTANT_REPEAT) && with(PKPDISTANTREPEAT.SP4)",
+                    "retexture": {
+                        "lamp_2": "lamp_yellow_blink",
+                        "lamp_1": "lamp_white"
+                    }
+                }
+            ],
+            "y": 5
+        },
+        "jcppkp/signal_lightbar": {
+            "textures": [
+                {
+                    "blockstate": "(with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR) || with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR_DISTANT)) && with(PKPLIGHTBAR.OFF)"
+                },           
+                {
+                    "blockstate": "(with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR) || with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR_DISTANT)) && with(PKPLIGHTBAR.GREEN)",
+                    "retexture": {
+                        "lamp": "lightbar_green"
+                    }
+                },
+				{
+                    "blockstate": "(with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR) || with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR_DISTANT)) && with(PKPLIGHTBAR.YELLOW)",
+                    "retexture": {
+                        "lamp": "lightbar_yellow"
+                    }
+                }
+            ],
+            "y": 4
+        },
+        "jcppkp/signal_speed": {
+            "textures": [
+                {
+                    "blockstate": "",
+                    "extentions": {
+                        "zs32.json": {
+                            "PKPSPEED": "4"
+                        }
+                    }
+                }
+            ],
+            "y": 4
+        },
+        "jcppkp/signal_shunting": {
+            "textures": [
+                {
+                    "blockstate": "with(PKPCOLORTYPE.SHUNTING_DWARF) && with(PKPSHUNTINGDWARF.OFF)"
+                },           
+                {
+                    "blockstate": "with(PKPCOLORTYPE.SHUNTING_DWARF) && with(PKPSHUNTINGDWARF.MS1)",
+                    "retexture": {
+                        "lamp_2": "lamp_blue"
+                    }
+                },
+				{
+                    "blockstate": "with(PKPCOLORTYPE.SHUNTING_DWARF) && with(PKPSHUNTINGDWARF.MS2)",
+                    "retexture": {
+                        "lamp_1": "lamp_white"
+                    }
+                }
+            ],
+            "y": 0
+        },
+        "hl/hl_ne2": {
+            "textures": [
+                {
+                    "blockstate": "hasandis(PKPDISTANTSIGN) && with(PKPCOLORTYPE.DISTANT) "
+                }
+            ],
+            "y": 1,
+            "z": -0.0625
+        },
+        "hl/hl_ne2_4": {
+            "textures": [
+                {
+                    "blockstate": "hasandis(PKPW18) && (with(PKPCOLORTYPE.AUTOMATIC_THREE_STATES) || with(PKPCOLORTYPE.AUTOMATIC_FOUR_STATES))"
+                }
+            ],
+            "y": 3,
+            "z": -0.0625
+        },
+        "jcppkp/signal_head_levelcrossing": {
+            "textures": [
+                {
+                    "blockstate": "with(PKPCOLORTYPE.LEVEL_CROSSING) && with(PKPLEVELCROSSING.OFF)"
+                },           
+                {
+                    "blockstate": "with(PKPCOLORTYPE.LEVEL_CROSSING) && with(PKPLEVELCROSSING.OSP1)",
+                    "retexture": {
+                        "lamp_1": "lamp_yellow"
+                    }
+                },
+				{
+                    "blockstate": "with(PKPCOLORTYPE.LEVEL_CROSSING) && with(PKPLEVELCROSSING.OSP2)",
+                    "retexture": {
+                        "lamp_2": "lamp_white"
+                    }
+                }
+            ],
+            "y": 5
+        }
+    }
+}
