@@ -130,6 +130,43 @@
             "changeableStage": "APISTAGE_NONE_CONFIG",
             "autoname": true,
             "dependencies": "config(PKPCOLORTYPE.LEVEL_CROSSING)"
+        },
+        {
+            "name": "pkpw21",
+            "enumClass": "PKPW21",
+            "defaultState": "OFF",
+            "changeableStage": "APISTAGE",
+            "autoname": true,
+            "dependencies": "config(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR) || config(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR_DISTANT) || config(PKPCOLORTYPE.AUTOMATIC_TWO_STATES) || config(PKPCOLORTYPE.AUTOMATIC_THREE_STATES) || config(PKPCOLORTYPE.AUTOMATIC_FOUR_STATES)"
+        },
+        {
+            "name": "pkpw24",
+            "defaultState": false,
+            "changeableStage": "APISTAGE",
+            "autoname": true,
+            "dependencies": "config(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR) || config(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR_DISTANT) || config(PKPCOLORTYPE.AUTOMATIC_TWO_STATES) || config(PKPCOLORTYPE.AUTOMATIC_THREE_STATES) || config(PKPCOLORTYPE.AUTOMATIC_FOUR_STATES)"
+        },
+        {
+            "name": "pkprepeater",
+            "enumClass": "PKPREPEATER",
+            "defaultState": "OFF",
+            "changeableStage": "GUISTAGE",
+            "autoname": true,
+            "dependencies": "config(PKPCOLORTYPE.DISTANT_REPEAT)"
+        },
+        {
+            "name": "pkpw19",
+            "defaultState": false,
+            "changeableStage": "APISTAGE",
+            "autoname": true,
+            "dependencies": "config(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR) || config(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR_DISTANT) || config(PKPCOLORTYPE.AUTOMATIC_TWO_STATES) || config(PKPCOLORTYPE.AUTOMATIC_THREE_STATES) || config(PKPCOLORTYPE.AUTOMATIC_FOUR_STATES)"
+        },
+        {
+            "name": "pkpw20",
+            "defaultState": false,
+            "changeableStage": "APISTAGE",
+            "autoname": true,
+            "dependencies": "config(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR) || config(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR_DISTANT) || config(PKPCOLORTYPE.AUTOMATIC_TWO_STATES) || config(PKPCOLORTYPE.AUTOMATIC_THREE_STATES) || config(PKPCOLORTYPE.AUTOMATIC_FOUR_STATES)"
         }
     ]
 }

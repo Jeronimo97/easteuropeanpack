@@ -395,28 +395,28 @@
                 {
                     "blockstate": "with(PKPCOLORTYPE.DISTANT_REPEAT) && with(PKPDISTANTREPEAT.SP1)",
                     "retexture": {
-                        "lamp_2": "lamp_yellow",
+                        "lamp_3": "lamp_yellow",
                         "lamp_1": "lamp_white"
                     }
                 },
                 {
                     "blockstate": "with(PKPCOLORTYPE.DISTANT_REPEAT) && with(PKPDISTANTREPEAT.SP2)",
                     "retexture": {
-                        "lamp_3": "lamp_green",
+                        "lamp_2": "lamp_green",
                         "lamp_1": "lamp_white"
                     }
                 },
                 {
                     "blockstate": "with(PKPCOLORTYPE.DISTANT_REPEAT) && with(PKPDISTANTREPEAT.SP3)",
                     "retexture": {
-                        "lamp_3": "lamp_green_blink",
+                        "lamp_2": "lamp_green_blink",
                         "lamp_1": "lamp_white"
                     }
                 },
                 {
                     "blockstate": "with(PKPCOLORTYPE.DISTANT_REPEAT) && with(PKPDISTANTREPEAT.SP4)",
                     "retexture": {
-                        "lamp_2": "lamp_yellow_blink",
+                        "lamp_3": "lamp_yellow_blink",
                         "lamp_1": "lamp_white"
                     }
                 }
@@ -451,6 +451,119 @@
                         "zs32.json": {
                             "PKPSPEED": "4"
                         }
+                    }
+                },
+                {
+                    "blockstate": "with(PKPW21.OFF) && (with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR) || with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR_DISTANT) || with(PKPCOLORTYPE.AUTOMATIC_TWO_STATES) || with(PKPCOLORTYPE.AUTOMATIC_THREE_STATES) || with(PKPCOLORTYPE.AUTOMATIC_FOUR_STATES))"
+                },
+                {
+                    "blockstate": "with(PKPW21.Z40) && (with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR) || with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR_DISTANT) || with(PKPCOLORTYPE.AUTOMATIC_TWO_STATES) || with(PKPCOLORTYPE.AUTOMATIC_THREE_STATES) || with(PKPCOLORTYPE.AUTOMATIC_FOUR_STATES))",
+                    "retexture": {
+                        "4": "opensignals:blocks/zs3/z4"
+                    }
+                },
+                {
+                    "blockstate": "with(PKPW21.Z50) && (with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR) || with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR_DISTANT) || with(PKPCOLORTYPE.AUTOMATIC_TWO_STATES) || with(PKPCOLORTYPE.AUTOMATIC_THREE_STATES) || with(PKPCOLORTYPE.AUTOMATIC_FOUR_STATES))",
+                    "retexture": {
+                        "4": "opensignals:blocks/zs3/z5"
+                    }
+                },
+                {
+                    "blockstate": "with(PKPW21.Z60) && (with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR) || with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR_DISTANT) || with(PKPCOLORTYPE.AUTOMATIC_TWO_STATES) || with(PKPCOLORTYPE.AUTOMATIC_THREE_STATES) || with(PKPCOLORTYPE.AUTOMATIC_FOUR_STATES))",
+                    "retexture": {
+                        "4": "opensignals:blocks/zs3/z6"
+                    }
+                },
+                {
+                    "blockstate": "with(PKPW21.Z70) && (with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR) || with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR_DISTANT) || with(PKPCOLORTYPE.AUTOMATIC_TWO_STATES) || with(PKPCOLORTYPE.AUTOMATIC_THREE_STATES) || with(PKPCOLORTYPE.AUTOMATIC_FOUR_STATES))",
+                    "retexture": {
+                        "4": "opensignals:blocks/zs3/z7"
+                    }
+                },
+                {
+                    "blockstate": "with(PKPW21.Z80) && (with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR) || with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR_DISTANT) || with(PKPCOLORTYPE.AUTOMATIC_TWO_STATES) || with(PKPCOLORTYPE.AUTOMATIC_THREE_STATES) || with(PKPCOLORTYPE.AUTOMATIC_FOUR_STATES))",
+                    "retexture": {
+                        "4": "opensignals:blocks/zs3/z8"
+                    }
+                },
+                {
+                    "blockstate": "with(PKPW21.Z90) && (with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR) || with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR_DISTANT) || with(PKPCOLORTYPE.AUTOMATIC_TWO_STATES) || with(PKPCOLORTYPE.AUTOMATIC_THREE_STATES) || with(PKPCOLORTYPE.AUTOMATIC_FOUR_STATES))",
+                    "retexture": {
+                        "4": "opensignals:blocks/zs3/z9"
+                    }
+                },
+                {
+                    "blockstate": "with(PKPW21.Z100) && (with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR) || with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR_DISTANT) || with(PKPCOLORTYPE.AUTOMATIC_TWO_STATES) || with(PKPCOLORTYPE.AUTOMATIC_THREE_STATES) || with(PKPCOLORTYPE.AUTOMATIC_FOUR_STATES))",
+                    "retexture": {
+                        "4": "opensignals:blocks/zs3/z10"
+                    }
+                },
+                {
+                    "blockstate": "with(PKPW21.Z110) && (with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR) || with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR_DISTANT) || with(PKPCOLORTYPE.AUTOMATIC_TWO_STATES) || with(PKPCOLORTYPE.AUTOMATIC_THREE_STATES) || with(PKPCOLORTYPE.AUTOMATIC_FOUR_STATES))",
+                    "retexture": {
+                        "4": "opensignals:blocks/zs3/z11"
+                    }
+                },
+                {
+                    "blockstate": "with(PKPW21.Z120) && (with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR) || with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR_DISTANT) || with(PKPCOLORTYPE.AUTOMATIC_TWO_STATES) || with(PKPCOLORTYPE.AUTOMATIC_THREE_STATES) || with(PKPCOLORTYPE.AUTOMATIC_FOUR_STATES))",
+                    "retexture": {
+                        "4": "opensignals:blocks/zs3/z12"
+                    }
+                },
+                {
+                    "blockstate": "!hasandis(PKPW24) && has(PKPW24) && (with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR) || with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR_DISTANT) || with(PKPCOLORTYPE.AUTOMATIC_TWO_STATES) || with(PKPCOLORTYPE.AUTOMATIC_THREE_STATES) || with(PKPCOLORTYPE.AUTOMATIC_FOUR_STATES))",
+                    "y": -0.4
+                },
+                {
+                    "blockstate": "hasandis(PKPW24) && has(PKPW24) && (with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR) || with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR_DISTANT) || with(PKPCOLORTYPE.AUTOMATIC_TWO_STATES) || with(PKPCOLORTYPE.AUTOMATIC_THREE_STATES) || with(PKPCOLORTYPE.AUTOMATIC_FOUR_STATES))",
+                    "retexture": {
+                        "4": "opensignals:blocks/zs3/zs6"
+                    },
+                    "y": -0.4
+                },
+                {
+                    "blockstate": "!hasandis(PKPW19) && has(PKPW19) && (with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR) || with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR_DISTANT) || with(PKPCOLORTYPE.AUTOMATIC_TWO_STATES) || with(PKPCOLORTYPE.AUTOMATIC_THREE_STATES) || with(PKPCOLORTYPE.AUTOMATIC_FOUR_STATES))",
+                    "y": -0.8
+                },
+                {
+                    "blockstate": "hasandis(PKPW19) && has(PKPW19) && (with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR) || with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR_DISTANT) || with(PKPCOLORTYPE.AUTOMATIC_TWO_STATES) || with(PKPCOLORTYPE.AUTOMATIC_THREE_STATES) || with(PKPCOLORTYPE.AUTOMATIC_FOUR_STATES))",
+                    "retexture": {
+                        "4": "opensignals:blocks/jcppkp/w19"
+                    },
+                    "y": -0.8
+                },
+                {
+                    "blockstate": "!hasandis(PKPW20) && has(PKPW20) && (with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR) || with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR_DISTANT) || with(PKPCOLORTYPE.AUTOMATIC_TWO_STATES) || with(PKPCOLORTYPE.AUTOMATIC_THREE_STATES) || with(PKPCOLORTYPE.AUTOMATIC_FOUR_STATES))",
+                    "y": -0.8
+                },
+                {
+                    "blockstate": "hasandis(PKPW20) && has(PKPW20) && (with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR) || with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR_DISTANT) || with(PKPCOLORTYPE.AUTOMATIC_TWO_STATES) || with(PKPCOLORTYPE.AUTOMATIC_THREE_STATES) || with(PKPCOLORTYPE.AUTOMATIC_FOUR_STATES))",
+                    "retexture": {
+                        "4": "opensignals:blocks/jcppkp/w20"
+                    },
+                    "y": -0.8
+                }
+            ],
+            "y": 4
+        },
+        "jcppkp/repeatersign": {
+            "textures": [
+                {
+                    "blockstate": "with(PKPREPEATER.I) && with(PKPCOLORTYPE.DISTANT_REPEAT)",
+                    "retexture": {
+                        "1": "opensignals:blocks/jcppkp/repeater_i"
+                    }
+                },
+                {
+                    "blockstate": "with(PKPREPEATER.II) && with(PKPCOLORTYPE.DISTANT_REPEAT)",
+                    "retexture": {
+                        "1": "opensignals:blocks/jcppkp/repeater_ii"
+                    }
+                },
+                {
+                    "blockstate": "with(PKPREPEATER.III) && with(PKPCOLORTYPE.DISTANT_REPEAT)",
+                    "retexture": {
+                        "1": "opensignals:blocks/jcppkp/repeater_iii"
                     }
                 }
             ],

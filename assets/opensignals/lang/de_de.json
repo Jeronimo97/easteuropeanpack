@@ -15,8 +15,8 @@
     "property.value.LEVEL_CROSSING": "Bahnübergangswarnsignal",
     "property.pkplightbar.name": "Lichtleiste",
     "property.pkplightbar.desc": "Lichtleiste für Geschwindigkeitseinstufung.",
-    "property.pkpspeed.name": "Zusätzliche Signale",
-    "property.pkpspeed.desc": "Hier können zusätzliche Signale wie Gegengleisfahrt, Geschwindigkeiten oder Fahrtrichtung angezeigt werden.",
+    "property.pkpspeed.name": "Zusätzliche Signale (veraltet)",
+    "property.pkpspeed.desc": "Nicht verwenden, veraltet.",
     "property.pkpdistantsign.name": "Vorsignaltafel",
     "property.pkpdistantsign.desc": "Vorsignaltafel zur Kennzeichnung eines Vorsignals",
     "property.pkpw18.name": "Vorsignaltafel an Blocksignal",
@@ -40,5 +40,15 @@
     "property.pkpshuntingdwarf.name": "Rangierzwergsignal",
     "property.pkpshuntingdwarf.desc": "Erlaubt Rangierfahrten innerhalb von Bahnhöfen.",
     "property.pkplevelcrossing.name": "Bahnübergangswarnsignal",
-    "property.pkplevelcrossing.desc": "Bahnübergangswarnsignale geben an, ob ein folgender Bahnübergang gesichert ist."
+    "property.pkplevelcrossing.desc": "Bahnübergangswarnsignale geben an, ob ein folgender Bahnübergang gesichert ist.",
+    "property.pkpw21.name": "W21 - Geschwindigkeitsanzeiger",
+    "property.pkpw21.desc": "Gibt die Geschwindigkeit an, die durch den anschließenden Weichenbereich gefahren werden darf.",
+    "property.pkpw24.name": "W24 - Gegengleisanzeiger",
+    "property.pkpw24.desc": "Zeigt an, ob der Fahrweg ins Gegengleis führt.",
+    "property.pkprepeater.name": "Wiederholer",
+    "property.pkprepeater.desc": "Gibt an, welcher Wiederholer das Signal ist.",
+    "property.pkpw19.name": "W19 - Verkürzter Vorsignalabstand",
+    "property.pkpw19.desc": "Verkürzter Vorsignalabstand zwischen den nächsten Signalen.",
+    "property.pkpw20.name": "W20 - Verkürzter Vorsignalabstand",
+    "property.pkpw20.desc": "Verkürzter Vorsignalabstand zum nächsten Signal."
 }

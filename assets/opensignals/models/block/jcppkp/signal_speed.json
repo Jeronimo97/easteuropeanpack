@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench by Mc_Jeronimo",
 	"textures": {
 		"1": "opensignals:blocks/jcppkp/black",
-		"4": "opensignals:blocks/zs3/a",
+		"4": "opensignals:blocks/zs3/off",
 		"particle": "opensignals:blocks/jcppkp/gray"
 	},
 	"elements": [
