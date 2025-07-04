@@ -2,7 +2,7 @@
     "currentSignal": "jcppkpcolorlight",
     "values": [
         "pkpsemiautonear.MS2",
-        "pkpsemiautonear.MS2",
+        "pkpsemiautoneardist.MS2",
         "pkpshunting.MS2",
         "pkpshuntingdwarf.MS2"
     ]

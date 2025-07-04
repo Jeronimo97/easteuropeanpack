@@ -12,7 +12,8 @@
             "pkpdistant.OS1",
             "pkpdistantrepeat.SP1",
             "pkpshunting.MS1",
-            "pkpshuntingdwarf.MS1"
+            "pkpshuntingdwarf.MS1",
+            "pkpw24.false"
         ]
     }
 }
