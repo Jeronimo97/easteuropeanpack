@@ -10,13 +10,43 @@
         "DISTANT_REPEAT",
         "SHUNTING",
         "SHUNTING_DWARF",
-        "LEVEL_CROSSING"
+        "LEVEL_CROSSING",
+        "SEMI_AUTOMATIC_NEAR_TWO",
+        "SEMI_AUTOMATIC_NEAR_TWO_WHITE",
+        "SEMI_AUTOMATIC_NEAR_THREE",
+        "SEMI_AUTOMATIC_NEAR_THREE_WHITE"
     ],
     "PKPSEMIAUTONEAR": [
         "OFF",
         "S1",
         "S2",
         "S6S10",
+        "SZ_RED",
+        "SZ",
+        "MS2"
+    ],
+    "PKPSEMIAUTONEARTWO": [
+        "OFF",
+        "S1",
+        "S2"
+    ],
+    "PKPSEMIAUTONEARTWOWHITE": [
+        "OFF",
+        "S1",
+        "SZ_RED",
+        "SZ",
+        "MS2"
+    ],
+    "PKPSEMIAUTONEARTHREE": [
+        "OFF",
+        "S1",
+        "S2",
+        "S6S10"
+    ],
+    "PKPSEMIAUTONEARTHREEWHITE": [
+        "OFF",
+        "S1",
+        "S2",
         "SZ_RED",
         "SZ",
         "MS2"

@@ -3,17 +3,23 @@
     "allStates": {
         "SZ": [
             "pkpsemiautonear.SZ_RED",
-            "pkpsemiautonear.SZ_RED"
+            "pkpsemiautonear.SZ_RED",
+            "pkpsemiautoneartwowhite.SZ_RED",
+            "pkpsemiautonearthreewhite.SZ_RED"
         ],
         "MS2": [
             "pkpsemiautonear.MS2",
             "pkpsemiautonear.MS2",
             "pkpshunting.MS2",
-            "pkpshuntingdwarf.MS2"
+            "pkpshuntingdwarf.MS2",
+            "pkpsemiautoneartwowhite.MS2",
+            "pkpsemiautonearthreewhite.MS2"
         ],
         "STATUSLIGHT": [
             "pkpsemiautonear.SZ",
-            "pkpsemiautonear.SZ"
+            "pkpsemiautonear.SZ",
+            "pkpsemiautoneartwowhite.SZ",
+            "pkpsemiautonearthreewhite.SZ"
         ]
     }
 }

@@ -18,7 +18,7 @@
         "jcppkp/mast_base": {
 			"textures": [
 				{
-                    "blockstate": "with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR) || with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR_DISTANT)"
+                    "blockstate": "with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR) || with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR_DISTANT) || with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR_TWO) || with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR_TWO_WHITE) || with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR_THREE) || with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR_THREE_WHITE)"
                 },
                 {
                     "blockstate": "with(PKPCOLORTYPE.AUTOMATIC_TWO_STATES) || with(PKPCOLORTYPE.AUTOMATIC_THREE_STATES) || with(PKPCOLORTYPE.AUTOMATIC_FOUR_STATES)",
@@ -44,19 +44,19 @@
         "jcppkp/mast": {
 			"textures": [
 				{
-                    "blockstate": "with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR) || with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR_DISTANT)",
+                    "blockstate": "with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR) || with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR_DISTANT) || with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR_TWO) || with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR_TWO_WHITE) || with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR_THREE) || with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR_THREE_WHITE)",
                     "y": 0
                 },
                 {
-                    "blockstate": "with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR) || with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR_DISTANT)",
+                    "blockstate": "with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR) || with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR_DISTANT) || with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR_TWO) || with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR_TWO_WHITE) || with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR_THREE) || with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR_THREE_WHITE)",
                     "y": 1
                 },
                 {
-                    "blockstate": "with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR) || with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR_DISTANT)",
+                    "blockstate": "with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR) || with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR_DISTANT) || with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR_TWO) || with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR_TWO_WHITE) || with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR_THREE) || with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR_THREE_WHITE)",
                     "y": 2
                 },
                 {
-                    "blockstate": "with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR) || with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR_DISTANT)",
+                    "blockstate": "with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR) || with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR_DISTANT) || with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR_TWO) || with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR_TWO_WHITE) || with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR_THREE) || with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR_THREE_WHITE)",
                     "y": 3
                 },
                 {
@@ -335,6 +335,49 @@
                     "retexture": {
                         "lamp_1": "lamp_white"
                     }
+                },
+                {
+                    "blockstate": "with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR_TWO) && with(PKPSEMIAUTONEARTWO.OFF)"
+                },
+                {
+                    "blockstate": "with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR_TWO) && with(PKPSEMIAUTONEARTWO.S1)",
+                    "retexture": {
+                        "lamp_2": "lamp_red"
+                    }
+                },
+                {
+                    "blockstate": "with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR_TWO) && with(PKPSEMIAUTONEARTWO.S2)",
+                    "retexture": {
+                        "lamp_1": "lamp_green"
+                    }
+                },
+				{
+                    "blockstate": "with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR_TWO_WHITE) && with(PKPSEMIAUTONEARTWOWHITE.OFF)"
+                },
+                {
+                    "blockstate": "with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR_TWO_WHITE) && with(PKPSEMIAUTONEARTWOWHITE.S1)",
+                    "retexture": {
+                        "lamp_2": "lamp_red"
+                    }
+                },
+                {
+                    "blockstate": "with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR_TWO_WHITE) && with(PKPSEMIAUTONEARTWOWHITE.SZ_RED)",
+                    "retexture": {
+                        "lamp_2": "lamp_red",
+                        "lamp_1": "lamp_white_blink"
+                    }
+                },
+                {
+                    "blockstate": "with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR_TWO_WHITE) && with(PKPSEMIAUTONEARTWOWHITE.SZ)",
+                    "retexture": {
+                        "lamp_1": "lamp_white_blink"
+                    }
+                },
+                {
+                    "blockstate": "with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR_TWO_WHITE) && with(PKPSEMIAUTONEARTWOWHITE.MS2)",
+                    "retexture": {
+                        "lamp_1": "lamp_white"
+                    }
                 }
             ],
             "y": 5
@@ -417,6 +460,62 @@
                     "blockstate": "with(PKPCOLORTYPE.DISTANT_REPEAT) && with(PKPDISTANTREPEAT.SP4)",
                     "retexture": {
                         "lamp_3": "lamp_yellow_blink",
+                        "lamp_1": "lamp_white"
+                    }
+                },
+                {
+                    "blockstate": "with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR_THREE) && with(PKPSEMIAUTONEARTHREE.OFF)"
+                },
+                {
+                    "blockstate": "with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR_THREE) && with(PKPSEMIAUTONEARTHREE.S1)",
+                    "retexture": {
+                        "lamp_2": "lamp_red"
+                    }
+                },
+                {
+                    "blockstate": "with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR_THREE) && with(PKPSEMIAUTONEARTHREE.S2)",
+                    "retexture": {
+                        "lamp_3": "lamp_green"
+                    }
+                },
+                {
+                    "blockstate": "with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR_THREE) && with(PKPSEMIAUTONEARTHREE.S6S10)",
+                    "retexture": {
+                        "lamp_3": "lamp_green",
+                        "lamp_1": "lamp_yellow"
+                    }
+                },
+				{
+                    "blockstate": "with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR_THREE_WHITE) && with(PKPSEMIAUTONEARTHREEWHITE.OFF)"
+                },
+                {
+                    "blockstate": "with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR_THREE_WHITE) && with(PKPSEMIAUTONEARTHREEWHITE.S1)",
+                    "retexture": {
+                        "lamp_2": "lamp_red"
+                    }
+                },
+                {
+                    "blockstate": "with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR_THREE_WHITE) && with(PKPSEMIAUTONEARTHREEWHITE.S2)",
+                    "retexture": {
+                        "lamp_3": "lamp_green"
+                    }
+                },
+                {
+                    "blockstate": "with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR_THREE_WHITE) && with(PKPSEMIAUTONEARTHREEWHITE.SZ_RED)",
+                    "retexture": {
+                        "lamp_2": "lamp_red",
+                        "lamp_1": "lamp_white_blink"
+                    }
+                },
+                {
+                    "blockstate": "with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR_THREE_WHITE) && with(PKPSEMIAUTONEARTHREEWHITE.SZ)",
+                    "retexture": {
+                        "lamp_1": "lamp_white_blink"
+                    }
+                },
+                {
+                    "blockstate": "with(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR_THREE_WHITE) && with(PKPSEMIAUTONEARTHREEWHITE.MS2)",
+                    "retexture": {
                         "lamp_1": "lamp_white"
                     }
                 }

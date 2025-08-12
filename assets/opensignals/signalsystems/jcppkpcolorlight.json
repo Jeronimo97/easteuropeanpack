@@ -30,6 +30,38 @@
             "dependencies": "config(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR)"
         },
         {
+            "name": "pkpsemiautoneartwo",
+            "enumClass": "PKPSEMIAUTONEARTWO",
+            "defaultState": "OFF",
+            "changeableStage": "APISTAGE_NONE_CONFIG",
+            "autoname": true,
+            "dependencies": "config(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR_TWO)"
+        },
+        {
+            "name": "pkpsemiautoneartwowhite",
+            "enumClass": "PKPSEMIAUTONEARTWOWHITE",
+            "defaultState": "OFF",
+            "changeableStage": "APISTAGE_NONE_CONFIG",
+            "autoname": true,
+            "dependencies": "config(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR_TWO_WHITE)"
+        },
+        {
+            "name": "pkpsemiautonearthree",
+            "enumClass": "PKPSEMIAUTONEARTHREE",
+            "defaultState": "OFF",
+            "changeableStage": "APISTAGE_NONE_CONFIG",
+            "autoname": true,
+            "dependencies": "config(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR_THREE)"
+        },
+        {
+            "name": "pkpsemiautonearthreewhite",
+            "enumClass": "PKPSEMIAUTONEARTHREEWHITE",
+            "defaultState": "OFF",
+            "changeableStage": "APISTAGE_NONE_CONFIG",
+            "autoname": true,
+            "dependencies": "config(PKPCOLORTYPE.SEMI_AUTOMATIC_NEAR_THREE_WHITE)"
+        },
+        {
             "name": "pkpsemiautoneardist",
             "enumClass": "PKPSEMIAUTONEARDIST",
             "defaultState": "OFF",

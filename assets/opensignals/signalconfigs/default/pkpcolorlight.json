@@ -9,7 +9,11 @@
             "pkpautothree.S2",
             "pkpautofour.S2",
             "pkpdistant.OS1",
-            "pkpdistantrepeat.SP1"
+            "pkpdistantrepeat.SP1",
+            "pkpsemiautoneartwo.S2",
+            "pkpsemiautoneartwowhite.S1",
+            "pkpsemiautonearthree.S2",
+            "pkpsemiautonearthreewhite.S2"
         ],
         "speed(>=.1) && speed(<=.5)": [
             "pkplightbar.OFF",
@@ -19,7 +23,11 @@
             "pkpautothree.S2",
             "pkpautofour.S2",
             "pkpdistant.OS1",
-            "pkpdistantrepeat.SP1"
+            "pkpdistantrepeat.SP1",
+            "pkpsemiautoneartwo.S2",
+            "pkpsemiautoneartwowhite.S1",
+            "pkpsemiautonearthree.S6S10",
+            "pkpsemiautonearthreewhite.S2"
         ],
         "speed(>=.6) && speed(<=.9)": [
             "pkplightbar.YELLOW",
@@ -29,7 +37,11 @@
             "pkpautothree.S2",
             "pkpautofour.S2",
             "pkpdistant.OS1",
-            "pkpdistantrepeat.SP1"
+            "pkpdistantrepeat.SP1",
+            "pkpsemiautoneartwo.S2",
+            "pkpsemiautoneartwowhite.S1",
+            "pkpsemiautonearthree.S6S10",
+            "pkpsemiautonearthreewhite.S2"
         ],
         "speed(==.10)": [
             "pkplightbar.GREEN",
@@ -39,7 +51,20 @@
             "pkpautothree.S2",
             "pkpautofour.S2",
             "pkpdistant.OS1",
-            "pkpdistantrepeat.SP1"
-        ]
+            "pkpdistantrepeat.SP1",
+            "pkpsemiautoneartwo.S2",
+            "pkpsemiautoneartwowhite.S1",
+            "pkpsemiautonearthree.S6S10",
+            "pkpsemiautonearthreewhite.S2",
+            "pkpw21.Z100"
+        ],
+        "speed(==.4)": ["pkpw21.Z40"],
+        "speed(==.5)": ["pkpw21.Z50"],
+        "speed(==.6)": ["pkpw21.Z60"],
+        "speed(==.7)": ["pkpw21.Z70"],
+        "speed(==.8)": ["pkpw21.Z80"],
+        "speed(==.9)": ["pkpw21.Z90"],
+        "speed(==.11)": ["pkpw21.Z110"],
+        "speed(==.12)": ["pkpw21.Z120"]
     }
 }

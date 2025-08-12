@@ -50,5 +50,17 @@
     "property.pkpw19.name": "W19 - Verkürzter Vorsignalabstand",
     "property.pkpw19.desc": "Verkürzter Vorsignalabstand zwischen den nächsten Signalen.",
     "property.pkpw20.name": "W20 - Verkürzter Vorsignalabstand",
-    "property.pkpw20.desc": "Verkürzter Vorsignalabstand zum nächsten Signal."
+    "property.pkpw20.desc": "Verkürzter Vorsignalabstand zum nächsten Signal.",
+    "property.pkpsemiautoneartwo.name": "Hauptsignal 2 Lampen",
+    "property.pkpsemiautoneartwo.desc": "Kann nur S1 oder S2 zeigen.",
+    "property.pkpsemiautoneartwowhite.name": "Hauptsignal 2 Lampen (weiß)",
+    "property.pkpsemiautoneartwowhite.desc": "Kann nur S1, SZ oder MS2 zeigen.",
+    "property.pkpsemiautonearthree.name": "Hauptsignal 3 Lampen",
+    "property.pkpsemiautonearthree.desc": "Kann nur S1, S2 oder S6-S10 zeigen.",
+    "property.pkpsemiautonearthreewhite.name": "Hauptsignal 3 Lampen (weiß)",
+    "property.pkpsemiautonearthreewhite.desc": "Kann nur S1, S2, SZ oder MS2 zeigen.",
+    "property.value.SEMI_AUTOMATIC_NEAR_TWO": "Hauptsignal 2 Lampen",
+    "property.value.SEMI_AUTOMATIC_NEAR_TWO_WHITE": "Hauptsignal 2 Lampen (weiß)",
+    "property.value.SEMI_AUTOMATIC_NEAR_THREE": "Hauptsignal 3 Lampen",
+    "property.value.SEMI_AUTOMATIC_NEAR_THREE_WHITE": "Hauptsignal 3 Lampen (weiß)"
 }

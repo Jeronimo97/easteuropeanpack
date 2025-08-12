@@ -50,5 +50,17 @@
     "property.pkpw19.name": "W19 - Short distance",
     "property.pkpw19.desc": "Short distance between next two signals.",
     "property.pkpw20.name": "W20 - Short distance",
-    "property.pkpw20.desc": "Short distance to next signal."
+    "property.pkpw20.desc": "Short distance to next signal.",
+    "property.pkpsemiautoneartwo.name": "Near signal 2 lamps",
+    "property.pkpsemiautoneartwo.desc": "Can only show S1 or S2.",
+    "property.pkpsemiautoneartwowhite.name": "Near signal 2 lamps (white)",
+    "property.pkpsemiautoneartwowhite.desc": "Can only show S1, SZ, or MS2.",
+    "property.pkpsemiautonearthree.name": "Near signal 3 lamps",
+    "property.pkpsemiautonearthree.desc": "Can only show S1, S2, or S6-S10.",
+    "property.pkpsemiautonearthreewhite.name": "Near signal 3 lamps (white)",
+    "property.pkpsemiautonearthreewhite.desc": "Can only show S1, S2, SZ, or MS2.",
+    "property.value.SEMI_AUTOMATIC_NEAR_TWO": "Near signal 2 lamps",
+    "property.value.SEMI_AUTOMATIC_NEAR_TWO_WHITE": "Near signal 2 lamps (white)",
+    "property.value.SEMI_AUTOMATIC_NEAR_THREE": "Near signal 3 lamps",
+    "property.value.SEMI_AUTOMATIC_NEAR_THREE_WHITE": "Near signal 3 lamps (white)"
 }

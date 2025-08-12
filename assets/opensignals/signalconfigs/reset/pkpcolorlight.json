@@ -13,7 +13,12 @@
             "pkpdistantrepeat.SP1",
             "pkpshunting.MS1",
             "pkpshuntingdwarf.MS1",
-            "pkpw24.false"
+            "pkpw24.false",
+            "pkpsemiautoneartwo.S1",
+            "pkpsemiautoneartwowhite.S1",
+            "pkpsemiautonearthree.S1",
+            "pkpsemiautonearthreewhite.S1",
+            "pkpw21.OFF"
         ]
     }
 }
